@@ -13,18 +13,16 @@ Tirer sur une montagne ne fera qu'en détruire une partie. Votre vaisseau descen
 // Comparer si mountainH est plus haute 
 // mountainH devient la montagne la plus haute
 // Récupérer l'index de mountainH
-// game loop
 while (true) {
     var biggest = 0;
     var mountainToShoot = 0;
     for (var i = 0; i < 8; i++) {
-        var mountainH = parseInt(readline()); // represents the height of one mountain.
+        var mountainH = parseInt(readline()); // Représente la hauteur d'une montagne
         if (biggest < mountainH) {
             biggest = mountainH;
             mountainToShoot = i;
         }
     }
 
-    // Write an action using console.log()
     console.log(mountainToShoot)
 }

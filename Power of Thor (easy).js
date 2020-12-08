@@ -23,14 +23,13 @@ Chaque déplacement fait bouger Thor de 1 case dans la direction choisie.
 */
 
 var inputs = readline().split(' ');
-const lightX = parseInt(inputs[0]); // the X position of the light of power
-const lightY = parseInt(inputs[1]); // the Y position of the light of power
-const initialTx = parseInt(inputs[2]); // Thor's starting X position
-const initialTy = parseInt(inputs[3]); // Thor's starting Y position
+const lightX = parseInt(inputs[0]); // Position X de l'éclair
+const lightY = parseInt(inputs[1]); // Position Y de l'éclair
+const initialTx = parseInt(inputs[2]); // Position X de départ de Thor
+const initialTy = parseInt(inputs[3]); // Position Y de départ de Thor
 
 let currentX = initialTx, currentY = initialTy; // Sauvegarde la position actuelle de Thor
 
-// game loop
 // la condition tournera jusqu'à ce que Thor récupère l'éclair
 while (true) {
     const remainingTurns = parseInt(readline()); // The remaining amount of turns Thor can move. Do not remove this line.

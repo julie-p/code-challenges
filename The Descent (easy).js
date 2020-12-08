@@ -23,6 +23,5 @@ while (true) {
             mountainToShoot = i;
         }
     }
-
     console.log(mountainToShoot)
-}
+};

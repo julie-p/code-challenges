@@ -49,9 +49,11 @@ while (true) {
 
     //Pareil pour gauche & droite
     if (currentX > lightX && currentX > 0) {
+        //Bouge vers l'ouest
         move += 'W';
         currentX--;
     } else if (currentX < lightX && currentX < 39) {
+        //Bouge vers l'est
         move += 'E';
         currentX++;
     };

@@ -10,7 +10,6 @@ var temps = readline().split(' ');
 
 //Tri les temps de la valeur la plus petite à la plus grande
 //Retourner la valeur absolue la plus proche de 0
-//Pour retourner l'entier positif => b - a (ex 5 - (-5) = 5)
 var tempsSorted = temps.sort((a, b) => Math.abs(a) - Math.abs(b) || b - a);
 
 console.log(tempsSorted[0] || 0);

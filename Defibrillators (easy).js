@@ -11,6 +11,7 @@ const N = parseInt(readline());
 //Remplacer ',' par '.' pour lon & lat
 //Calculer la distance avec la formule
 //Stocker distance & name dans defibs
+//Sort les données de defibs et récupérer que le 1er nom
 
 const distance = (latA, latB, lonA, lonB)=> {
     let x = (lonB - lonA) * Math.cos( ( latA + latB ) / 2);

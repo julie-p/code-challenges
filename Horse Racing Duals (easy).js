@@ -1,10 +1,10 @@
 //Trouver les deux puissances les plus proches et afficher leur écart avec un nombre entier positif.
 
 //Boucle sur les chevaux
-//Récupère les puissances des chevaux
+//Push les puissances des chevaux dans tableau vide
 //Sort les puissances de la plus petite à la plus grande
 //Map sur les puissances
-//Calcul de la différence entre les puissances (Math.abs ?)
+//Calcul de la différence entre les puissances
 //Slice pour enlever les valeurs non numériques
 //Sort à nouveau
 //Console log de la différence la plus petite

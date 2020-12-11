@@ -19,8 +19,8 @@ const buildingWidth = parseInt(inputs[0]); //Largeur du building
 const buildingHeight = parseInt(inputs[1]); //Hauteur du building
 const N = parseInt(readline()); //Nb de tours avant game over
 var inputs = readline().split(' ');
-const heroX = parseInt(inputs[0]);
-const heroY = parseInt(inputs[1]);
+let heroX = parseInt(inputs[0]);
+let heroY = parseInt(inputs[1]);
 
 //Récupérer les positions gauche, droite, haut, bas
 let left = 0;

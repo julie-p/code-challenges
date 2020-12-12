@@ -1,4 +1,4 @@
-La/*  ville de Montpellier a équipé ses rues de défibrillateurs pour permettre de sauver des victimes d'arrêts cardiaques. Les données correspondant à la position de tous les défibrillateurs sont accessibles en ligne.
+/*La  ville de Montpellier a équipé ses rues de défibrillateurs pour permettre de sauver des victimes d'arrêts cardiaques. Les données correspondant à la position de tous les défibrillateurs sont accessibles en ligne.
 
 Sur la base des données fournies dans les tests, vous décidez d'écrire un programme qui permettra aux usagers de trouver le défibrillateur le plus proche de là où ils se trouvent, grâce à leur téléphone portable. */
 
@@ -6,9 +6,9 @@ const LON = parseFloat(readline().replace(',', '.'));
 const LAT = parseFloat(readline().replace(',', '.'));
 const N = parseInt(readline());
 
+//Remplacer ',' par '.' pour lon & lat
 //Split pour récupérer chaque valeurs de defib
 //Récupérer longitude & latitude & nom du défib
-//Remplacer ',' par '.' pour lon & lat
 //Calculer la distance avec la formule
 //Stocker distance & name dans defibs
 //Sort les données de defibs et récupérer que le 1er nom
